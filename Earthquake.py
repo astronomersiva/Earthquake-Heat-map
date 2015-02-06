@@ -6,7 +6,7 @@ from datetime import datetime
 startTime=datetime.now()
 
 #Will be used to launch a web browser and view the output
-filepath = 'file:///c:/python27/Earthquakebigg.html'
+filepath = 'file:///Earthquakebigg.html'
 #Read complete documentation for the API here-http://www.openhazards.com/data/GetEarthquakeCatalog
 url='http://api.openhazards.com/GetEarthquakeCatalog?t0=2014/06/06'
 htmlCoords=""
